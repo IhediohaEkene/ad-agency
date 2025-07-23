@@ -24,7 +24,7 @@ body::before {
   z-index: 0;
   pointer-events: none;
   -webkit-backdrop-filter: blur(5px); /* Add for Safari */
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
 }
 
 /* Add a new overlay for additional blurring effect */
@@ -35,7 +35,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.7); /* Add semi-transparent overlay */
+  background: rgba(255, 255, 255, 0.1); /* Add semi-transparent overlay */
   z-index: 0;
   pointer-events: none;
 }
