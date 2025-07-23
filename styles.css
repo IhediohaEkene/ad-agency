@@ -23,8 +23,8 @@ body::before {
   opacity: 1; /* Reduce opacity further */
   z-index: 0;
   pointer-events: none;
-  -webkit-backdrop-filter: blur(7px); /* Add for Safari */
-  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(2px); /* Add for Safari */
+  backdrop-filter: blur(2px);
 }
 
 /* Add a new overlay for additional blurring effect */
